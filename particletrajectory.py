@@ -191,12 +191,11 @@ def loren():
     ax.set_xlabel('x')
     ax.set_ylabel('y')
     ax.set_zlabel('z')
-
     ax.plot3D(a, b, c, color='red', label='path')
     ax.legend(loc='lower left')
     ax.view_init(a1, b1)
-    plt.savefig('graph.jpg')
-    st.image('graph.jpg')
+    plt.savefig('graph1.jpg')
+    st.image('graph1.jpg')
 
 if plot1:
     damp()
