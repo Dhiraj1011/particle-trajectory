@@ -7,11 +7,11 @@ st.header("Motion of particle under external force (Classical and Electrodynamic
 
 st.subheader("Damping force\nThis force comes under classical mechanics where particle is subjected to an external force and under its influence it oscillates")
 st.subheader("Damping\n Damped oscillation is an example of forced vibration. Forced vibration occurs when a system is subjected to an external force.There are three types of damping: critical, overdamped, and underdamped. In a critically damped system, the oscillations die out quickly. In an overdamped system, the oscillations are so slow that they might as well not be oscillating at all.")
-st.image("lorentz force/Damping force.PNG")
+st.image("Damping force.PNG")
 
 st.subheader("Lorentz force\nThis force comes under electrodynamics where the particle is subjected to an external magnetic and electric field and particle moves under their influence")
 st.subheader("Lorentz force\nIn physics, specifically in electromagnetism, the Lorentz force (or electromagnetic force) is the combination of electric and magnetic force on a point charge due to electromagnetic fields. A particle of charge q moving with a velocity v in an electric field E and a magnetic field B experiences a force")
-st.image("lorentz force/lorenzforce.jpg")
+st.image("lorenzforce.jpg")
 
 plot1=st.checkbox("Damping Force")
 plot2=st.checkbox("Lorentz Force")
