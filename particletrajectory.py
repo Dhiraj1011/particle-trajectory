@@ -186,7 +186,8 @@ def loren():
         t += dt
 
     fig = plt.figure()
-    ax = Axes3D(fig)
+    #ax = Axes3D(fig)
+    ax = fig.add_subplot(111, projection='3d')
     ax.set_title("path of charged particle under influence of electric and magnetic field")
     ax.set_xlabel('x')
     ax.set_ylabel('y')
